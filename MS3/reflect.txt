@@ -1,0 +1,60 @@
+/*
+*****************************************************************************
+                        Reflection - Milestone 3
+Full Name  : Harikrishna Paresh Patel
+Student ID#: 150739217
+Email      : Hpatel296@myseneca.ca
+Section    : NII
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+1.
+  I. // sort appointments data
+  void sortAppointments(struct ClinicData* data);
+     The purpose of this function was to sort the patient?s appointment data to be displayed in order of time or date
+     or the patient number in ascending order this is useful when you need to verify the appointment between the
+     doctor and patient and fetching data from the file.
+
+  II. // verify date match for setting
+  int isEqual(const struct Date* d1, const struct Date* d2);
+     This is used to filter the results to find the appointments date if they match from the lookup value this is very
+     valuable when you?re planning for your clinic operations you may even abort visiting one patient if you're 
+     travelling to another branch clinic.
+
+  III. // set dates
+  int dateSet(const struct Date* d, const struct Time* t);
+     This is used to set the date and time for the appointment so that it meets the hours of the clinic in operation 
+     its very valuable for a patient to be able to select a slot that doesn?t interrupt the plannings of the doctors 
+     like a situation which is very timing such as commuting back the doctor may have enough time to catch up the flight 
+     to another city to visit his other patients in the other branch while patients are satisfied
+
+2. I had used up 100 lines to write the logic to add appointment logic. I was able to make a right choice selection 
+   of the looping iteration after spending much time in the correction of this huge logic by using a while loop most
+   of the logic I was able to eliminate the repetition of code by using extra functions (helper functions) this had helped 
+   solve about 200 extra unnecessary repetition of code.
+
+   I also made the program look much more neat by using flagged variables even though I didn't name them as flags they 
+   were actually making the right decision in the next steps after one portion is already set up such as the time in minutes
+   is calculated if its wrong it would keep prompting until its in a valid period also by using the best coding practices 
+   I was able to make this big logic look very neat and appropriately commenting the code makes it further clear 
+   for someone else to understand the logic.
+
+3. I had started from last thursday evening making corrections to the milestone 2 file and it took quite long time to fix the 
+   errors also Tuesday I was done solving all the errors I had made a schedule to do 3 functions I broke down and keep reminders 
+   of my daily goals and once I have done I keep switching to do other easier tasks in other courses and after an hour I would 
+   come back and continue with IPC this method has helped me much since I got stuck in a function I would not spend much time 
+   thinking and doing too many complex stuff by which the solution is not correct instead coming back later on to solve function 
+   it's taken me approximately 30min to 45min for each function than spending hours when stuck.
+
+   This way has been great but yet challenging as not always I would get the right solution as debugging and testing helped me
+   identify more errors and it was very difficult challenging task since I would end up with wrong looping errors which takes 
+   very long to implement and find what could be write some logics were so hard to figure out which took long time to solve the 
+   problem, I used several approaches to do the logic  I had the most challenging function as Add appointment which has several
+   nested loops and it got very complex as I spent more than 3 hours solving the bugs of wrong loop selection and I tried all being
+   very tired and stuck on it and just left it away and did each small logics separately and tested each and every loop  to 
+   ensure its executing correctly.

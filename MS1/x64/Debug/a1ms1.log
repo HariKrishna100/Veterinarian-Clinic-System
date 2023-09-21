@@ -1,0 +1,4 @@
+﻿  core.c
+C:\Users\Harikrishna Patel\Desktop\2nd\iPC\project\IPC-Project-master\MS1\core.c(106,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Harikrishna Patel\Desktop\2nd\iPC\project\IPC-Project-master\MS1\core.c(200,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  a1ms1.vcxproj -> C:\Users\Harikrishna Patel\Desktop\2nd\iPC\project\IPC-Project-master\MS1\x64\Debug\a1ms1.exe
